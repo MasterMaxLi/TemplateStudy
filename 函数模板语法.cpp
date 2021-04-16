@@ -3,6 +3,7 @@
 using namespace std;
 
 //函数模板
+//模板必须要给出数据类型
 template<typename T>    //声明模板，T是一个通用数据类型
 void mySwap(T& a, T& b)
 {
